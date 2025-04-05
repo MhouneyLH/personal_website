@@ -1,14 +1,18 @@
 <template>
-  <span class="px-3 py-1 text-sm text-accent bg-accent/10 rounded-full">
-    {{ name }}
-  </span>
+  <span class="py-1 text-sm text-accent rounded-full {{ color }}"> [{{ name }}] </span>
 </template>
 
 <script setup>
-defineProps({
+import { defineProps } from "vue";
+
+const props = defineProps({
   name: {
     type: String,
     required: true,
+  },
+  color: {
+    type: String,
+    default: "bg-accent/10",
   },
 });
 </script>

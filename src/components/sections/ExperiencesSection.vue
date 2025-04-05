@@ -1,32 +1,13 @@
 <template>
   <section class="min-h-screen flex flex-col justify-center space-y-6">
-    <ExperienceEntry
-      v-for="experience in experiences"
-      :key="experience.id"
-      :title="experience.title"
-      :company="experience.company"
-      :startDate="experience.startDate"
-      :endDate="experience.endDate"
-      :description="experience.description"
-      :skills="experience.skills"
-      :link="experience.link"
-    />
+    <TerminalWindow :experiences="_experiences" />
   </section>
 </template>
 
-<script>
-import ExperienceEntry from "@/components/ExperienceEntry.vue";
+<script setup>
+import { ref } from "vue";
 import { experiences } from "@/data/content.js";
+import TerminalWindow from "../TerminalWindow.vue";
 
-export default {
-  name: "ExperiencesSection",
-  components: {
-    ExperienceEntry,
-  },
-  data() {
-    return {
-      experiences: experiences,
-    };
-  },
-};
+const _experiences = ref(experiences);
 </script>

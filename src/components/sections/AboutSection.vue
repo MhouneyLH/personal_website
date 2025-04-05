@@ -23,7 +23,7 @@
     <!-- Social Media Links -->
     <div class="flex space-x-3">
       <a
-        v-for="link in socialLinks"
+        v-for="link in _socialLinks"
         :key="link.name"
         :href="link.url"
         target="_blank"
@@ -37,15 +37,9 @@
   </section>
 </template>
 
-<script>
+<script setup>
+import { ref } from "vue";
 import { socialLinks } from "@/data/content";
 
-export default {
-  name: "AboutSection",
-  data() {
-    return {
-      socialLinks,
-    };
-  },
-};
+const _socialLinks = ref(socialLinks);
 </script>
