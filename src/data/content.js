@@ -18,7 +18,14 @@ export const experiences = [
 ];
 
 export const socialLinks = [
-  { name: "GitHub", url: "https://github.com/yourusername" },
-  { name: "LinkedIn", url: "https://linkedin.com/in/yourusername" },
-  { name: "Twitter", url: "https://twitter.com/yourusername" },
+  {
+    name: "GitHub",
+    url: "https://github.com/MhouneyLH",
+    icon: "github",
+  },
+  {
+    name: "LinkedIn",
+    url: "https://linkedin.com/in/lucas-huenniger",
+    icon: "linkedin",
+  },
 ];
