@@ -6,6 +6,8 @@ import vueDevTools from "vite-plugin-vue-devtools";
 
 // https://vite.dev/config/
 export default defineConfig({
+  // see router.js for handling different base url
+  // when e. g. deployed to github actions...
   plugins: [vue(), vueDevTools()],
   resolve: {
     alias: {
