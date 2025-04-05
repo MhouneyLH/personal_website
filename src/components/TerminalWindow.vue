@@ -23,29 +23,9 @@
         </div>
 
         <!-- list all the experiences after last command -->
-        <div v-for="(experience, index) in experiences" :key="index">
-          <div class="flex flex-col space-y-2 mt-2">
-            <div class="text-white">
-              <div class="flex flex-row items-center space-x-2">
-                <p>[{{ experience.title }}]</p>
-                <p class="text-sm text-gray-500">
-                  {{ experience.startDate }} - {{ experience.endDate }}
-                </p>
-              </div>
-              <div class="ml-4">
-                <p class="text-sm">{{ experience.description }}</p>
-                <p class="text-sm text-gray-400">
-                  <span
-                    v-for="(tag, tagIndex) in experience.skills"
-                    :key="tagIndex"
-                    class="bg-accent/20 py-1 rounded-full text-xs"
-                  >
-                    <SkillBadge :name="tag" color="bg-accent/10" />
-                  </span>
-                </p>
-              </div>
-            </div>
-          </div>
+        <div v-for="e in experiences">
+          <ExperienceEntry :experience="e" />
+          <div class="mt-3"></div>
         </div>
 
         <!-- Simulated current input line with blinking cursor -->
@@ -61,7 +41,7 @@
 <script setup>
 import Card from "primevue/card";
 import { defineProps } from "vue";
-import SkillBadge from "./SkillBadge.vue";
+import ExperienceEntry from "./ExperienceEntry.vue";
 
 // Updated predefinedLines to match your JSON structure
 const predefinedLines = [

@@ -23,24 +23,6 @@ const Skills = Object.freeze({
 
 export const experiences = [
   {
-    title: "Dual student in Software Engineering",
-    company: "LACOS GmbH",
-    startDate: "October 2021",
-    endDate: "September 2024",
-    description: "",
-    skills: [
-      Skills.CPP,
-      Skills.C,
-      Skills.CSHARP,
-      Skills.QT,
-      Skills.DOCKER,
-      Skills.LINUX,
-      Skills.KUBERNETES,
-      Skills.CICD,
-    ],
-    link: "https://www.lacos.eu/",
-  },
-  {
     title: "Software Engineer and Co-Founder",
     company: "EduSim Engineering GbR",
     startDate: "July 2024",
@@ -58,6 +40,24 @@ export const experiences = [
       Skills.TERRAFORM,
     ],
     link: "https://edusim-engineering.de/",
+  },
+  {
+    title: "Dual student in Software Engineering",
+    company: "LACOS GmbH",
+    startDate: "October 2021",
+    endDate: "September 2024",
+    description: "",
+    skills: [
+      Skills.CPP,
+      Skills.C,
+      Skills.CSHARP,
+      Skills.QT,
+      Skills.DOCKER,
+      Skills.LINUX,
+      Skills.KUBERNETES,
+      Skills.CICD,
+    ],
+    link: "https://www.lacos.eu/",
   },
 ];
 
