@@ -1,0 +1,5 @@
+services:
+  vue_app:
+    build: .
+    ports:
+      - 8080:80

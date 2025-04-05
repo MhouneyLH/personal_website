@@ -27,3 +27,17 @@ npm run dev
 ```sh
 npm run build
 ```
+
+# With Docker
+
+Start:
+
+```bash
+docker compose up -d
+```
+
+Stop:
+
+```bash
+docker compose down
+```
