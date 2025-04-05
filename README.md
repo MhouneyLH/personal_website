@@ -36,6 +36,12 @@ Start:
 docker compose up -d
 ```
 
+Start and build:
+
+```bash
+docker compose up -d --build
+```
+
 Stop:
 
 ```bash

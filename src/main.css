@@ -8,6 +8,6 @@
   }
 
   body {
-    @apply bg-navy text-slate;
+    @apply bg-slate-700;
   }
 }

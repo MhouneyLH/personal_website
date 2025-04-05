@@ -9,12 +9,6 @@ const router = createRouter({
       name: "home",
       component: HomeView,
     },
-    // Add more routes here as needed, for example:
-    // {
-    //   path: '/projects',
-    //   name: 'projects',
-    //   component: () => import('./views/ProjectsView.vue')
-    // }
   ],
 });
 

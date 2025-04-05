@@ -1,13 +1,17 @@
 <template>
-  <div class="max-w-5xl mx-auto px-4 py-16 space-y-20">
-    <Navigation />
-    <AboutSection />
-    <ExperienceSection />
+  <div class="bg-red-500 text-white p-4">
+    Tailwind is working!
+  </div>
+  <div class="p-grid">
+    <div class="p-col-12 p-md-6">
+       <AboutSection/>
+    </div>
+    <div class="p-col-12 p-md-6">
+       
+      </div>
   </div>
 </template>
 
 <script setup>
-import Navigation from '../components/Navigation.vue'
 import AboutSection from '../components/AboutSection.vue'
-import ExperienceSection from '../components/ExperienceSection.vue'
 </script>
