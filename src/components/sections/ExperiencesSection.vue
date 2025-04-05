@@ -1,5 +1,5 @@
 <template>
-  <section class="min-h-screen flex flex-col justify-center space-y-6">
+  <section>
     <TerminalWindow :experiences="_experiences" />
   </section>
 </template>

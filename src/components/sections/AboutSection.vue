@@ -1,6 +1,6 @@
 <template>
   <!-- Title -->
-  <section class="min-h-screen flex flex-col justify-start">
+  <section>
     <div class="flex items-center">
       <!-- Big ">" Symbol -->
       <span class="text-6xl md:text-8xl font-bold text-accent leading-none mr-4">&gt;</span>
@@ -11,7 +11,7 @@
       Software Engineer | Co-Founder EduSim Engineering
     </h2>
 
-    <p class="text-xl text-slate max-w-2xl mb-6">
+    <p class="text-xl text-slate max-w-2xl mb-6 text-justify">
       I'm Lucas from Thuringia, Germany, and I'm currently studying for my master's degree in
       Software Engineering in Hagenberg, Upper Austria. I'm a passionate Software Engineer who loves
       learning new things, solving problems, and taking on new challenges. I'm looking forward to
