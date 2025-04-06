@@ -7,18 +7,14 @@
 
     <!-- Display skills as badges -->
     <div class="mt-2 flex flex-wrap gap-2">
-      <span
-        v-for="skill in project.skills"
-        :key="skill"
-        class="py-1 text-sm text-accent cursor-pointer m-0 rounded-none inline-block leading-none bg-accent/10"
-      >
-        [{{ skill }}]
-      </span>
+      <SkillBadge v-for="skill in project.skills" :name="skill" />
     </div>
   </div>
 </template>
 
 <script setup>
+import SkillBadge from "./SkillBadge.vue";
+
 const props = defineProps({
   project: {
     type: Object,

@@ -15,8 +15,9 @@
       <div class="text-gray-400 text-sm leading-normal">
         <p>{{ experience.description }}</p>
         <p>
-          <span v-for="skill in experience.skills">
+          <span v-for="(skill, index) in experience.skills" :key="skill">
             <SkillBadge :name="skill" color="" />
+            <span v-if="index !== experience.skills.length - 1">&nbsp;</span>
           </span>
         </p>
       </div>

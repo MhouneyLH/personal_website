@@ -7,9 +7,7 @@
       <h1 class="text-4xl md:text-5xl font-bold text-light-slate">Hey, I'm Lucas!</h1>
     </div>
 
-    <h2 class="text-2xl md:text-2xl font-bold text-slate mb-6">
-      Software Engineer | Co-Founder EduSim Engineering
-    </h2>
+    <h2 class="text-2xl md:text-2xl font-bold text-slate mb-6">Software Engineer | Co-Founder</h2>
 
     <p class="text-xl text-slate max-w-2xl mb-6 text-justify">
       I'm Lucas from Thuringia, Germany, and I'm currently studying for my master's degree in

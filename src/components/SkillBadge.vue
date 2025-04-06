@@ -1,6 +1,6 @@
 <template>
   <span
-    class="py-1 text-sm text-accent cursor-pointer m-0 rounded-none inline-block leading-none"
+    class="text-sm text-accent cursor-pointer inline-block leading-tight"
     :class="hoveredSkill === name ? 'bg-green-500 text-white font-bold ' : color"
     @mouseover="setHoveredSkill(name)"
     @mouseleave="setHoveredSkill(null)"

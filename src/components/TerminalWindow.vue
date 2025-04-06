@@ -69,14 +69,6 @@ const predefinedLines = [
 
 const lastLine = predefinedLines[predefinedLines.length - 1];
 
-const hoveredSkill = ref(null);
-const setHoveredSkill = (skill) => {
-  hoveredSkill.value = skill;
-};
-
-provide("hoveredSkill", hoveredSkill);
-provide("setHoveredSkill", setHoveredSkill);
-
 const props = defineProps({
   experiences: {
     type: Array,
