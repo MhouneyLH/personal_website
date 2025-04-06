@@ -58,10 +58,11 @@ TBD
 
 ## Todos & Ideas
 
-- [ ] Add a blog
+- [ X ] Add footer
+- [ X ] Fix theming issues -> only use dark mode
 - [ ] Add navigation bar
 - [ ] Add privacy policy in nice looking way
 - [ ] Add legal notice in nice looking way
-- [ ] Add footer
+- [ ] Add a blog
 - [ ] Add small minigame in the background
 - [ ] Make projects overview prettier and add more depth to it (dedicated page for a project maybe?)

@@ -2,7 +2,7 @@
 <template>
   <div class="flex flex-row items-start space-x-2">
     <p>></p>
-    <div class="flex flex-col text-white">
+    <div class="flex flex-col text-dark-text">
       <p class="text-sm">
         [{{ experience.title }}] @
         <strong

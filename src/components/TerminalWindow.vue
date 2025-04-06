@@ -1,5 +1,5 @@
 <template>
-  <Card class="bg-zinc-900 text-green-400 font-mono border rounded-lg shadow-lg">
+  <Card class="font-mono shadow-lg bg-dark-background">
     <template #content>
       <!-- Terminal body -->
       <div class="space-y-2">
@@ -8,16 +8,16 @@
           <div v-if="line.output !== undefined">
             <div class="flex flex-col space-y-2">
               <div>
-                <span class="text-green-400">lucas@dev:{{ line.path }} $</span>
+                <span class="text-dark-accent">lucas@dev:{{ line.path }} $</span>
                 <span class="ml-3">{{ line.command }}</span>
               </div>
-              <span class="text-white">{{ line.output }}</span>
+              <span class="text-dark-text">{{ line.output }}</span>
             </div>
           </div>
 
           <!-- Show only the command and path if output is undefined or empty -->
           <div v-else>
-            <span class="text-green-400">lucas@dev:{{ line.path }} $</span>
+            <span class="text-dark-accent">lucas@dev:{{ line.path }} $</span>
             <span class="ml-3">{{ line.command }}</span>
           </div>
         </div>
@@ -30,7 +30,7 @@
 
         <!-- Simulated current input line with blinking cursor -->
         <div class="flex items-center">
-          <span class="text-green-400">lucas@dev:{{ lastLine.path }} $</span>
+          <span class="text-dark-accent">lucas@dev:{{ lastLine.path }} $</span>
           <span id="blinking-cursor" class="ml-3 text-white">█</span>
         </div>
       </div>

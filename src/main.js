@@ -9,12 +9,19 @@ import Aura from "@primeuix/themes/aura";
 import "primeicons/primeicons.css";
 import { Card } from "primevue";
 
+document.documentElement.classList.add("dark");
+
 const app = createApp(App);
 app.use(router);
 app.use(PrimeVue, {
   theme: {
     preset: Aura,
+    options: {
+      // define in tailwind.config.cjs
+      darkModeSelector: ".dark",
+    },
   },
+  ripple: true,
 });
 
 app.component("Card", Card);
