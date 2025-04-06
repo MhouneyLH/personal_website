@@ -33,13 +33,49 @@
         <!-- could not use tailwind for this :(-->
         <i :class="`pi pi-${link.icon}`" style="font-size: 30px"></i>
       </a>
+
+      <!-- Email Icon -->
+      <span
+        class="text-light-slate hover:text-accent cursor-pointer"
+        @click="copyEmail"
+        @mousemove="updateCursorPosition"
+      >
+        <i class="pi pi-envelope" style="font-size: 30px"></i>
+      </span>
+
+      <!-- Copied Tooltip -->
+      <div
+        v-if="showCopied"
+        :style="{ top: `${cursorPosition.y}px`, left: `${cursorPosition.x}px` }"
+        class="absolute bg-black text-white text-xs px-2 py-1 rounded shadow-lg"
+      >
+        Email copied! 🤓
+      </div>
     </div>
   </section>
 </template>
 
 <script setup>
 import { ref } from "vue";
-import { socialLinks } from "@/data/content";
+import { socialLinks, email } from "@/data/content";
 
 const _socialLinks = ref(socialLinks);
+const showCopied = ref(false);
+const cursorPosition = ref({ x: 0, y: 0 });
+
+const HIDE_TOOLTIP_TIMEOUT_MS = 750;
+const TOOLTIP_OFFSET = 10;
+
+const copyEmail = () => {
+  navigator.clipboard.writeText(email).then(() => {
+    showCopied.value = true;
+    setTimeout(() => {
+      showCopied.value = false;
+    }, HIDE_TOOLTIP_TIMEOUT_MS);
+  });
+};
+
+const updateCursorPosition = (event) => {
+  cursorPosition.value = { x: event.clientX + TOOLTIP_OFFSET, y: event.clientY + TOOLTIP_OFFSET };
+};
 </script>

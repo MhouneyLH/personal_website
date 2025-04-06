@@ -1,6 +1,6 @@
 <template>
   <span
-    class="py-1 text-sm text-accent cursor-pointer m-0 rounded-none inline-block"
+    class="py-1 text-sm text-accent cursor-pointer m-0 rounded-none inline-block leading-none"
     :class="hoveredSkill === name ? 'bg-green-500 text-white font-bold ' : color"
     @mouseover="setHoveredSkill(name)"
     @mouseleave="setHoveredSkill(null)"
@@ -10,7 +10,7 @@
 </template>
 
 <script setup>
-import { defineProps, inject } from "vue";
+import { inject } from "vue";
 
 const props = defineProps({
   name: {

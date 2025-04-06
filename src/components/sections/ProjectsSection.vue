@@ -1,5 +1,6 @@
 <template>
-  <section class="min-h-screen bg-black flex flex-col justify-center">
-    <p>ProjectsSection</p>
+  <section>
+    <h1 class="text-4xl md:text-6xl font-bold text-accent">Own Projects</h1>
+    
   </section>
 </template>

@@ -9,9 +9,11 @@
     <div class="flex items-center justify-center w-11/12">
       <ExperiencesSection />
     </div>
-  </div>
 
-  <ProjectsSection />
+    <div class="col-span-1 md:col-span-2 flex items-center justify-center w-full">
+      <ProjectsSection />
+    </div>
+  </div>
 </template>
 
 <script setup>
