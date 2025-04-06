@@ -7,7 +7,7 @@ import "./main.css";
 import PrimeVue from "primevue/config";
 import Aura from "@primeuix/themes/aura";
 import "primeicons/primeicons.css";
-import { Card } from "primevue";
+import { Button, Card } from "primevue";
 
 document.documentElement.classList.add("dark");
 
@@ -24,7 +24,10 @@ app.use(PrimeVue, {
   ripple: true,
 });
 
+// register global primevue components
+// so they can by used in any component
 app.component("Card", Card);
+app.component("Button", Button);
 
 // Mount the app to a DOM element with the id 'app'
 app.mount("#app");

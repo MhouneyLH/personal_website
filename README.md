@@ -60,9 +60,9 @@ TBD
 
 - [x] Add footer
 - [x] Fix theming issues -> only use dark mode
-- [ ] Add navigation bar
-- [ ] Add privacy policy in nice looking way
-- [ ] Add legal notice in nice looking way
-- [ ] Add a blog
-- [ ] Add small minigame in the background
+- [x] Add privacy policy in nice looking way
+- [x] Add legal notice in nice looking way
 - [ ] Make projects overview prettier and add more depth to it (dedicated page for a project maybe?)
+- [ ] Add navigation bar ?
+- [ ] Add small minigame in the background
+- [ ] Add a blog

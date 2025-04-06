@@ -6,6 +6,15 @@
       <a :href="repositoryLink" target="_blank" class="text-accent font-mono underline text-sm">
         <p>Source Code of the Website</p>
       </a>
+
+      <div class="flex space-x-4 mt-2">
+        <router-link to="/legal" class="text-light-slate hover:text-accent text-sm"
+          >Legal Notice</router-link
+        >
+        <router-link to="/privacy" class="text-light-slate hover:text-accent text-sm"
+          >Privacy Policy</router-link
+        >
+      </div>
     </div>
   </footer>
 </template>
