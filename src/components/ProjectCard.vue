@@ -21,7 +21,7 @@
 </template>
 
 <script setup>
-import SkillBadge from "./SkillBadge.vue";
+import SkillBadge from "@/components/SkillBadge.vue";
 import { parseMarkdownLinksFromString } from "@/utils.js";
 import { computed } from "vue";
 

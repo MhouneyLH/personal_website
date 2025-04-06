@@ -40,8 +40,7 @@
 
 <script setup>
 import Card from "primevue/card";
-import { ref, provide } from "vue";
-import ExperienceEntry from "./ExperienceEntry.vue";
+import ExperienceEntry from "@/components/ExperienceEntry.vue";
 
 // Updated predefinedLines to match your JSON structure
 const predefinedLines = [

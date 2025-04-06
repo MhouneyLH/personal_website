@@ -8,6 +8,7 @@ import vueDevTools from "vite-plugin-vue-devtools";
 export default defineConfig({
   // see router.js for handling different base url
   // when e. g. deployed to github actions...
+  base: process.env.NODE_ENV === "production" ? "/personal_website/" : "/",
   plugins: [vue(), vueDevTools()],
   resolve: {
     alias: {

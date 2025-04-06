@@ -7,7 +7,7 @@
 <script setup>
 import { ref } from "vue";
 import { experiences } from "@/data/content.js";
-import TerminalWindow from "../TerminalWindow.vue";
+import TerminalWindow from "@/components/TerminalWindow.vue";
 
 const _experiences = ref(experiences);
 </script>

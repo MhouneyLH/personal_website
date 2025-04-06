@@ -13,6 +13,7 @@ const router = createRouter({
   // when deploying e. g. to github pages we need this
   // as it appends /repository_name/ to the url...
   // otherwise the resources won't be found
+  // see vite.config.js for the base url
   history: createWebHistory(import.meta.env.BASE_URL),
   routes,
 });
