@@ -1,34 +1,36 @@
-# lucas-portfolio
+# personal_website
 
-This template should help get you started developing with Vue 3 in Vite.
+This is the source code for my personal website which you can find at [mhouneylh.github.io/personal_website](https://mhouneylh.github.io/personal_website).
 
-## Recommended IDE Setup
+## Development
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+### With Node
 
-## Customize configuration
+Install dependencies:
 
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
+```bash
+pnpm install
 ```
 
-### Compile and Hot-Reload for Development
+Start:
 
-```sh
-npm run dev
+```bash
+pnpm run dev
 ```
 
-### Compile and Minify for Production
+Preview for production:
 
-```sh
-npm run build
+```bash
+pnpm run build && pnpm run preview
 ```
 
-# With Docker
+Release to GitHub Pages:
+
+```bash
+pnpm run build && pnpm run deploy
+```
+
+### With Docker
 
 Start:
 
@@ -36,7 +38,7 @@ Start:
 docker compose up -d
 ```
 
-Start and build:
+Start and rebuild image:
 
 ```bash
 docker compose up -d --build
@@ -47,3 +49,19 @@ Stop:
 ```bash
 docker compose down
 ```
+
+Release to GitHub Pages:
+
+```bash
+TBD
+```
+
+## Todos & Ideas
+
+- [ ] Add a blog
+- [ ] Add navigation bar
+- [ ] Add privacy policy in nice looking way
+- [ ] Add legal notice in nice looking way
+- [ ] Add footer
+- [ ] Add small minigame in the background
+- [ ] Make projects overview prettier and add more depth to it (dedicated page for a project maybe?)

@@ -1,11 +1,23 @@
 import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "./views/HomeView.vue";
+import LegalNoticeView from "./views/LegalNoticeView.vue";
+import PrivacyView from "./views/PrivacyView.vue";
 
 const routes = [
   {
     path: "/",
     name: "home",
     component: HomeView,
+  },
+  {
+    path: "/legal",
+    name: "legal",
+    component: LegalNoticeView,
+  },
+  {
+    path: "/privacy",
+    name: "privacy",
+    component: PrivacyView,
   },
 ];
 
