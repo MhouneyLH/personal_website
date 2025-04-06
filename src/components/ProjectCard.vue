@@ -3,7 +3,9 @@
     <p class="font-bold text-lg">{{ project.title }}</p>
     <p class="text-sm text-gray-400">{{ project.link }}</p>
     <p class="text-sm text-gray-500">{{ project.date }}</p>
-    <p class="mt-2 text-white">{{ project.description }}</p>
+
+    <!-- Render description with markdown-like links -->
+    <p class="mt-2 text-white" v-html="parsedDescription"></p>
 
     <!-- Display skills as badges -->
     <div class="mt-2 flex flex-wrap gap-2">
@@ -14,6 +16,8 @@
 
 <script setup>
 import SkillBadge from "./SkillBadge.vue";
+import { parseMarkdownLinksFromString } from "@/utils.js";
+import { computed } from "vue";
 
 const props = defineProps({
   project: {
@@ -21,4 +25,6 @@ const props = defineProps({
     required: true,
   },
 });
+
+const parsedDescription = computed(() => parseMarkdownLinksFromString(props.project.description));
 </script>
