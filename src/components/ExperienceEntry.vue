@@ -18,8 +18,9 @@
       <div class="text-gray-400 text-sm">
         <p>{{ experience.description }}</p>
         <p>
-          <span v-for="skill in experience.skills" class="bg-accent/20 py-1 rounded-full text-xs">
-            <SkillBadge :name="skill" color="bg-accent/10" />
+          <span v-for="skill in experience.skills">
+            <SkillBadge :name="skill" color="" />
+            <span v-if="!$last">&nbsp;</span>
           </span>
         </p>
       </div>

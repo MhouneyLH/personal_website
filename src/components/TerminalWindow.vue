@@ -40,7 +40,7 @@
 
 <script setup>
 import Card from "primevue/card";
-import { defineProps } from "vue";
+import { defineProps, ref, provide } from "vue";
 import ExperienceEntry from "./ExperienceEntry.vue";
 
 // Updated predefinedLines to match your JSON structure
@@ -68,6 +68,14 @@ const predefinedLines = [
 ];
 
 const lastLine = predefinedLines[predefinedLines.length - 1];
+
+const hoveredSkill = ref(null);
+const setHoveredSkill = (skill) => {
+  hoveredSkill.value = skill;
+};
+
+provide("hoveredSkill", hoveredSkill);
+provide("setHoveredSkill", setHoveredSkill);
 
 const props = defineProps({
   experiences: {

@@ -1,17 +1,13 @@
 <template>
-  <div class="grid grid-cols-1 md:grid-cols-2 h-screen">
+  <div class="grid grid-cols-1 md:grid-cols-2 h-screen gap-8">
     <!-- Left Side -->
-    <div class="flex items-center justify-center">
-      <div class="w-10/12">
-        <AboutSection />
-      </div>
+    <div class="flex items-center justify-center w-11/12">
+      <AboutSection />
     </div>
 
     <!-- Right Side -->
-    <div class="flex items-center justify-center">
-      <div class="w-10/12">
-        <ExperiencesSection />
-      </div>
+    <div class="flex items-center justify-center w-11/12">
+      <ExperiencesSection />
     </div>
   </div>
 
