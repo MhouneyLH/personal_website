@@ -140,6 +140,7 @@ export const socialLinks = [
 ];
 
 export const email = "lucas.huenniger02@gmail.com";
+export const repositoryLink = "https://github.com/MhouneyLH/personal_website";
 
 export const projects = [
   {

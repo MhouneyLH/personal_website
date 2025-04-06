@@ -58,8 +58,8 @@ TBD
 
 ## Todos & Ideas
 
-- [ X ] Add footer
-- [ X ] Fix theming issues -> only use dark mode
+- [x] Add footer
+- [x] Fix theming issues -> only use dark mode
 - [ ] Add navigation bar
 - [ ] Add privacy policy in nice looking way
 - [ ] Add legal notice in nice looking way
