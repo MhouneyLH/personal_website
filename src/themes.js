@@ -6,6 +6,7 @@ const accentOnlyDarkTheme = {
     surface: "#18181B",
     "surface-variant": "#64748B",
     accent: "#4ADE80",
+    "accent-variant": "#48BB78",
     error: "#f44336",
     info: "#2196f3",
     success: "#4caf50",

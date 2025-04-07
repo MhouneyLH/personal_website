@@ -1,9 +1,8 @@
 <template>
   <span
     class="text-sm cursor-pointer inline-block leading-tight"
-    :class="hoveredSkill === name ? 'bg-green-500 text-white font-bold ' : color"
+    :class="hoveredSkill === name ? 'bg-dark-accent-variant text-white font-bold ' : color"
     @mouseover="setHoveredSkill(name)"
-    @mouseleave="setHoveredSkill(null)"
   >
     [{{ name }}]
   </span>
