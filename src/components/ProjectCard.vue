@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-zinc-900 text-green-400 font-mono border rounded-lg shadow-lg p-4">
+  <div class="bg-dark-secondary text-dark-accent font-mono border rounded-lg shadow-lg p-4">
     <p class="font-bold text-lg">{{ project.title }}</p>
     <a
       :href="project.link"
@@ -11,7 +11,7 @@
     <p class="text-sm text-gray-500">{{ project.date }}</p>
 
     <!-- Render description with markdown-like links -->
-    <p class="mt-2 text-white" v-html="parsedDescription"></p>
+    <p class="mt-2 text-white text-justify" v-html="parsedDescription"></p>
 
     <!-- skills -->
     <div class="mt-2 flex flex-wrap gap-2">

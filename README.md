@@ -64,6 +64,7 @@ TBD
 - [x] Add legal notice in nice looking way
 - [x] Glow effect on the background
 - [ ] Make projects overview prettier and add more depth to it (dedicated page for a project maybe?)
+- [ ] Image of me
+- [ ] Add small minigame in the background -> endless runner on cli with blinking cursor :)
 - [ ] Add navigation bar ?
-- [ ] Add small minigame in the background
-- [ ] Add a blog
+- [ ] Add a blog?

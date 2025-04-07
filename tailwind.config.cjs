@@ -9,6 +9,7 @@ module.exports = {
           text: "#ffffff",
           accent: "#4ade80",
           glow: "#4ade80",
+          secondary: "#18181B",
         },
       },
     },

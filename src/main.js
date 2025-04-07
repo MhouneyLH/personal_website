@@ -7,7 +7,7 @@ import "./main.css";
 import PrimeVue from "primevue/config";
 import Aura from "@primeuix/themes/aura";
 import "primeicons/primeicons.css";
-import { Button, Card } from "primevue";
+import { Button, Card, Timeline } from "primevue";
 
 document.documentElement.classList.add("dark");
 
@@ -28,6 +28,7 @@ app.use(PrimeVue, {
 // so they can by used in any component
 app.component("Card", Card);
 app.component("Button", Button);
+app.component("Timeline", Timeline);
 
 // Mount the app to a DOM element with the id 'app'
 app.mount("#app");
