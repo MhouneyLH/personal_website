@@ -1,4 +1,5 @@
 <template>
+  <!-- Because of setting the background color here, the glow effect of the cursor is not visible -->
   <footer class="bg-zinc-900 text-gray-400 py-4">
     <div class="flex flex-col items-center justify-center gap-2">
       <p class="text-sm">© {{ new Date().getFullYear() }} Lucas Hünniger. All rights reserved.</p>

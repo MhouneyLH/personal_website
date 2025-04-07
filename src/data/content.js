@@ -77,7 +77,6 @@ export const experiences = [
       Skills.AWS,
       Skills.CICD,
       Skills.TERRAFORM,
-      Skills.UNITY,
       Skills.SOFTWARE_TESTING,
     ],
     link: "https://edusim-engineering.de/",

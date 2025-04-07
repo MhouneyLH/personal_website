@@ -27,7 +27,7 @@
         href="https://www.buymeacoffee.com/mhouneylh"
         target="_blank"
         rel="noopener noreferrer"
-        class="text-light-slate cursor-pointer"
+        class="text-light-slate cursor-pointer inline-block"
       >
         <img
           src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=☕&slug=mhouneylh&button_colour=4ade80&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00"
