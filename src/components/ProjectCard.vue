@@ -1,19 +1,27 @@
 <template>
-  <div class="bg-dark-surface text-dark-accent font-mono border rounded-lg shadow-lg p-4">
-    <p class="font-bold text-lg">{{ project.title }}</p>
-    <a :href="project.link" target="_blank" class="hover:underline text-sm text-gray-400">
-      <p class="truncate">{{ project.link }}</p>
-    </a>
-    <p class="text-sm text-gray-500">{{ project.date }}</p>
+  <v-card class="bg-dark-surface font-mono" outlined>
+    <v-card-title class="text-lg font-bold text-dark-accent">{{ project.title }}</v-card-title>
 
-    <!-- Render description with markdown-like links -->
-    <p class="mt-2 text-white text-justify" v-html="parsedDescription"></p>
-
-    <!-- skills -->
-    <div class="mt-2 flex flex-wrap gap-2">
-      <SkillBadge v-for="skill in project.skills" :name="skill" />
+    <div v-if="project.link">
+      <v-card-subtitle>
+        <a :href="project.link" target="_blank" class="hover:underline text-sm text-gray-400">
+          <p class="truncate">{{ project.link }}</p>
+        </a>
+      </v-card-subtitle>
     </div>
-  </div>
+
+    <v-card-text>
+      <p class="text-sm text-gray-500">{{ project.date }}</p>
+
+      <!-- Render description with markdown-like links -->
+      <p class="mt-2 text-white text-justify" v-html="parsedDescription"></p>
+
+      <!-- skills -->
+      <div class="mt-2 flex flex-wrap gap-2 text-dark-accent">
+        <SkillBadge v-for="skill in project.skills" :key="skill" :name="skill" />
+      </div>
+    </v-card-text>
+  </v-card>
 </template>
 
 <script setup>
