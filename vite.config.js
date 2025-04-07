@@ -4,21 +4,27 @@ import { defineConfig } from "vite";
 import vue from "@vitejs/plugin-vue";
 import vueDevTools from "vite-plugin-vue-devtools";
 
+// see router.js for handling different base url
+// when e. g. deployed to github pages...
+let basePath = "/";
+if (process.env.NODE_ENV === "production") {
+  basePath = "/portfolio/";
+}
+
+// docker has problems with resolving /personal_website/ ...
+if (process.env.DOCKER_ENV === "true") {
+  basePath = "/";
+}
+
+console.log("Using base path: ", basePath);
+
 // https://vite.dev/config/
 export default defineConfig({
-  // see router.js for handling different base url
-  // when e. g. deployed to github actions...
-  base: process.env.NODE_ENV === "production" ? "/personal_website/" : "/",
+  base: basePath,
   plugins: [vue(), vueDevTools()],
   resolve: {
     alias: {
       "@": fileURLToPath(new URL("./src", import.meta.url)),
     },
   },
-  // vue: {
-  //   compilerOptions: {
-  //     // Enable the compiler for Vue 3
-  //     isCustomElement: (tag) => tag.startsWith("v-"),
-  //   },
-  // },
 });

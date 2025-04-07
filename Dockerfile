@@ -15,6 +15,7 @@ RUN pnpm install --frozen-lockfile
 
 COPY . .
 
+ENV DOCKER_ENV=true
 RUN pnpm build
 
 #######################################

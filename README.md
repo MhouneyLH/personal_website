@@ -63,7 +63,8 @@ TBD
 - [x] Add privacy policy in nice looking way
 - [x] Add legal notice in nice looking way
 - [x] Glow effect on the background
-- [ ] Make projects overview prettier and add more depth to it (dedicated page for a project maybe?)
+- [x] Make projects overview prettier and add more depth to it (dedicated page for a project maybe?)
+- [] images for projects
 - [ ] Image of me
 - [ ] Add small minigame in the background -> endless runner on cli with blinking cursor :)
 - [ ] Add navigation bar ?
