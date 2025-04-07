@@ -1,11 +1,7 @@
 <template>
-  <div class="bg-dark-secondary text-dark-accent font-mono border rounded-lg shadow-lg p-4">
+  <div class="bg-dark-surface text-dark-accent font-mono border rounded-lg shadow-lg p-4">
     <p class="font-bold text-lg">{{ project.title }}</p>
-    <a
-      :href="project.link"
-      target="_blank"
-      class="text-accent hover:underline text-sm text-gray-400"
-    >
+    <a :href="project.link" target="_blank" class="hover:underline text-sm text-gray-400">
       <p class="truncate">{{ project.link }}</p>
     </a>
     <p class="text-sm text-gray-500">{{ project.date }}</p>

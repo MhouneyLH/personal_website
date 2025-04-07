@@ -1,61 +1,57 @@
 <template>
-  <div class="flex flex-col items-center py-10">
+  <div class="flex flex-col items-center py-10 text-justify">
     <!-- Header -->
-    <h1 class="text-3xl font-bold text-accent mb-6">Datenschutzerklärung</h1>
+    <h1 class="text-3xl font-bold mb-6">Datenschutzerklärung</h1>
     <p class="text-sm text-gray-400 mb-10">Stand: 6. April 2025</p>
 
     <!-- Content -->
     <div class="max-w-3xl text-sm leading-relaxed space-y-6">
-      <h2 class="text-xl font-semibold text-accent mb-4">Inhaltsübersicht</h2>
+      <h2 class="text-xl font-semibold mb-4">Inhaltsübersicht</h2>
       <ul class="list-disc list-inside space-y-2">
-        <li><a class="text-accent hover:underline" href="#m3">Verantwortlicher</a></li>
+        <li><a class="hover:underline" href="#m3">Verantwortlicher</a></li>
         <li>
-          <a class="text-accent hover:underline" href="#mOverview">Übersicht der Verarbeitungen</a>
+          <a class="hover:underline" href="#mOverview">Übersicht der Verarbeitungen</a>
         </li>
         <li>
-          <a class="text-accent hover:underline" href="#m2427">Maßgebliche Rechtsgrundlagen</a>
+          <a class="hover:underline" href="#m2427">Maßgebliche Rechtsgrundlagen</a>
         </li>
-        <li><a class="text-accent hover:underline" href="#m27">Sicherheitsmaßnahmen</a></li>
+        <li><a class="hover:underline" href="#m27">Sicherheitsmaßnahmen</a></li>
         <li>
-          <a class="text-accent hover:underline" href="#m25"
-            >Übermittlung von personenbezogenen Daten</a
-          >
+          <a class="hover:underline" href="#m25">Übermittlung von personenbezogenen Daten</a>
         </li>
         <li>
-          <a class="text-accent hover:underline" href="#m24">Internationale Datentransfers</a>
+          <a class="hover:underline" href="#m24">Internationale Datentransfers</a>
         </li>
         <li>
-          <a class="text-accent hover:underline" href="#m12">Datenspeicherung und Löschung</a>
+          <a class="hover:underline" href="#m12">Datenspeicherung und Löschung</a>
         </li>
         <li>
-          <a class="text-accent hover:underline" href="#m225">Bereitstellung des Onlineangebots</a>
+          <a class="hover:underline" href="#m225">Bereitstellung des Onlineangebots</a>
         </li>
-        <li><a class="text-accent hover:underline" href="#m134">Einsatz von Cookies</a></li>
+        <li><a class="hover:underline" href="#m134">Einsatz von Cookies</a></li>
         <li>
-          <a class="text-accent hover:underline" href="#m136">Präsenzen in sozialen Netzwerken</a>
+          <a class="hover:underline" href="#m136">Präsenzen in sozialen Netzwerken</a>
         </li>
-        <li><a class="text-accent hover:underline" href="#m15">Änderung und Aktualisierung</a></li>
+        <li><a class="hover:underline" href="#m15">Änderung und Aktualisierung</a></li>
       </ul>
 
-      <h2 id="m3" class="text-xl font-semibold text-accent mt-10 mb-4">Verantwortlicher</h2>
+      <h2 id="m3" class="text-xl font-semibold mt-10 mb-4">Verantwortlicher</h2>
       <p>
         Lucas Hünniger<br />Softwarepark 106 Top 8<br />4232, Hagenberg im Mühlkreis, Österreich
       </p>
       <p>
         E-Mail-Adresse:
-        <a href="mailto:lucas.huenniger02@gmail.com" class="text-accent hover:underline"
+        <a href="mailto:lucas.huenniger02@gmail.com" class="hover:underline"
           >lucas.huenniger02@gmail.com</a
         >
       </p>
 
-      <h2 id="mOverview" class="text-xl font-semibold text-accent mt-10 mb-4">
-        Übersicht der Verarbeitungen
-      </h2>
+      <h2 id="mOverview" class="text-xl font-semibold mt-10 mb-4">Übersicht der Verarbeitungen</h2>
       <p>
         Die nachfolgende Übersicht fasst die Arten der verarbeiteten Daten und die Zwecke ihrer
         Verarbeitung zusammen und verweist auf die betroffenen Personen.
       </p>
-      <h3 class="text-lg font-semibold text-accent mt-6">Arten der verarbeiteten Daten</h3>
+      <h3 class="text-lg font-semibold mt-6">Arten der verarbeiteten Daten</h3>
       <ul class="list-disc list-inside space-y-2">
         <li>Kontaktdaten</li>
         <li>Inhaltsdaten</li>
@@ -64,12 +60,12 @@
         <li>Protokolldaten</li>
       </ul>
 
-      <h3 class="text-lg font-semibold text-accent mt-6">Kategorien betroffener Personen</h3>
+      <h3 class="text-lg font-semibold mt-6">Kategorien betroffener Personen</h3>
       <ul class="list-disc list-inside space-y-2">
         <li>Nutzer</li>
       </ul>
 
-      <h3 class="text-lg font-semibold text-accent mt-6">Zwecke der Verarbeitung</h3>
+      <h3 class="text-lg font-semibold mt-6">Zwecke der Verarbeitung</h3>
       <ul class="list-disc list-inside space-y-2">
         <li>Kommunikation</li>
         <li>Sicherheitsmaßnahmen</li>
@@ -79,9 +75,7 @@
         <li>Öffentlichkeitsarbeit</li>
       </ul>
 
-      <h2 id="m2427" class="text-xl font-semibold text-accent mt-10 mb-4">
-        Maßgebliche Rechtsgrundlagen
-      </h2>
+      <h2 id="m2427" class="text-xl font-semibold mt-10 mb-4">Maßgebliche Rechtsgrundlagen</h2>
       <p>
         <strong>Maßgebliche Rechtsgrundlagen nach der DSGVO: </strong>Im Folgenden erhalten Sie eine
         Übersicht der Rechtsgrundlagen der DSGVO, auf deren Basis wir personenbezogene Daten
@@ -125,7 +119,7 @@
         Entscheidungsfindung im Einzelfall.
       </p>
 
-      <h2 id="m27" class="text-xl font-semibold text-accent mt-10 mb-4">Sicherheitsmaßnahmen</h2>
+      <h2 id="m27" class="text-xl font-semibold mt-10 mb-4">Sicherheitsmaßnahmen</h2>
       <p>
         Wir treffen nach Maßgabe der gesetzlichen Vorgaben unter Berücksichtigung des Stands der
         Technik, der Implementierungskosten und der Art, des Umfangs, der Umstände und der Zwecke
@@ -159,7 +153,7 @@
         verschlüsselt übertragen werden.
       </p>
 
-      <h2 id="m25" class="text-xl font-semibold text-accent mt-10 mb-4">
+      <h2 id="m25" class="text-xl font-semibold mt-10 mb-4">
         Übermittlung von personenbezogenen Daten
       </h2>
       <p>
@@ -172,9 +166,7 @@
         Vereinbarungen, die dem Schutz Ihrer Daten dienen, mit den Empfängern Ihrer Daten ab.
       </p>
 
-      <h2 id="m24" class="text-xl font-semibold text-accent mt-10 mb-4">
-        Internationale Datentransfers
-      </h2>
+      <h2 id="m24" class="text-xl font-semibold mt-10 mb-4">Internationale Datentransfers</h2>
       <p>
         Datenverarbeitung in Drittländern: Sofern wir Daten in ein Drittland (d. h. außerhalb der
         Europäischen Union (EU) oder des Europäischen Wirtschaftsraums (EWR)) übermitteln oder dies
@@ -221,7 +213,7 @@
         >
       </p>
 
-      <h2 id="m12" class="text-xl font-semibold text-accent mt-10 mb-4">
+      <h2 id="m12" class="text-xl font-semibold mt-10 mb-4">
         Allgemeine Informationen zur Datenspeicherung und Löschung
       </h2>
       <p>
@@ -320,7 +312,7 @@
           </ul>
         </li>
       </ul>
-      <h2 id="m225" class="text-xl font-semibold text-accent mt-10 mb-4">
+      <h2 id="m225" class="text-xl font-semibold mt-10 mb-4">
         Bereitstellung des Onlineangebots und Webhosting
       </h2>
       <p>
@@ -379,7 +371,7 @@
           jeweiligen Vorfalls von der Löschung ausgenommen.
         </li>
       </ul>
-      <h2 id="m134" class="text-xl font-semibold text-accent mt-10 mb-4">Einsatz von Cookies</h2>
+      <h2 id="m134" class="text-xl font-semibold mt-10 mb-4">Einsatz von Cookies</h2>
       <p>
         Unter dem Begriff „Cookies" werden Funktionen, die Informationen auf Endgeräten der Nutzer
         speichern und aus ihnen auslesen, verstanden. Cookies können ferner in Bezug auf
@@ -472,7 +464,7 @@
           >
         </li>
       </ul>
-      <h2 id="m136" class="text-xl font-semibold text-accent mt-10 mb-4">
+      <h2 id="m136" class="text-xl font-semibold mt-10 mb-4">
         Präsenzen in sozialen Netzwerken (Social Media)
       </h2>
       <p>
@@ -536,67 +528,89 @@
         </li>
       </ul>
       <p><strong>Weitere Hinweise zu Verarbeitungsprozessen, Verfahren und Diensten:</strong></p>
-      <ul class="m-elements">
+      <ul class="list-disc list-inside m-elements space-y-4">
         <li>
-          <strong>LinkedIn: </strong>Soziales Netzwerk - Wir sind gemeinsam mit LinkedIn Irland
+          <strong>LinkedIn:</strong> Soziales Netzwerk - Wir sind gemeinsam mit LinkedIn Irland
           Unlimited Company für die Erhebung (jedoch nicht die weitere Verarbeitung) von Daten der
           Besucher verantwortlich, die zur Erstellung der „Page-Insights" (Statistiken) unserer
           LinkedIn-Profile genutzt werden. Zu diesen Daten gehören Informationen über die Arten von
           Inhalten, die Nutzer sich ansehen oder mit denen sie interagieren, sowie die von ihnen
           vorgenommenen Handlungen. Außerdem werden Details über die genutzten Geräte erfasst, wie
-          z. B. IP-Adressen, Betriebssystem, Browsertyp, Spracheinstellungen und Cookie-Daten, sowie
+          z. B. IP-Adressen, Betriebssystem, Browsertyp, Spracheinstellungen und Cookie-Daten, sowie
           Angaben aus den Nutzerprofilen, wie Berufsfunktion, Land, Branche, Hierarchieebene,
-          Unternehmensgröße und Beschäftigungsstatus. Datenschutzinformationen zur Verarbeitung von
-          Nutzerdaten durch LinkedIn können den Datenschutzhinweisen von LinkedIn entnommen werden:
-          <a href="https://www.linkedin.com/legal/privacy-policy" target="_blank"
-            >https://www.linkedin.com/legal/privacy-policy.</a
-          ><br />Wir haben mit LinkedIn Irland eine spezielle Vereinbarung geschlossen („Page
-          Insights Joint Controller Addendum",
-          <a href="https://legal.linkedin.com/pages-joint-controller-addendum" target="_blank"
-            >https://legal.linkedin.com/pages-joint-controller-addendum</a
-          >), in der insbesondere geregelt wird, welche Sicherheitsmaßnahmen LinkedIn beachten muss
-          und in der LinkedIn sich bereit erklärt hat, die Rechte der Betroffenen zu erfüllen (d. h.
-          Nutzer können z. B. Auskunfts- oder Löschungsanfragen direkt an LinkedIn richten). Die
-          Rechte der Nutzer (insbesondere das Recht auf Auskunft, Löschung, Widerspruch und
-          Beschwerde bei der zuständigen Aufsichtsbehörde) werden durch die Vereinbarungen mit
-          LinkedIn nicht eingeschränkt. Die gemeinsame Verantwortlichkeit beschränkt sich auf die
-          Erhebung und Übermittlung der Daten an LinkedIn Irland Unlimited Company, ein Unternehmen
-          mit Sitz in der EU. Die weitere Verarbeitung der Daten obliegt ausschließlich LinkedIn
-          Irland Unlimited Company, insbesondere was die Übermittlung der Daten an die
-          Muttergesellschaft LinkedIn Corporation in den USA betrifft;
+          Unternehmensgröße und Beschäftigungsstatus.
+        </li>
+        <li>
+          <strong>Datenschutzinformationen:</strong>
+          <ul class="list-disc list-inside pl-8">
+            <li>
+              <a
+                href="https://www.linkedin.com/legal/privacy-policy"
+                target="_blank"
+                class="underline"
+              >
+                Datenschutzhinweise von LinkedIn
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://legal.linkedin.com/pages-joint-controller-addendum"
+                target="_blank"
+                class="underline"
+              >
+                Page Insights Joint Controller Addendum
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li>
           <strong>Dienstanbieter:</strong> LinkedIn Ireland Unlimited Company, Wilton Place, Dublin
-          2, Irland;
-          <span class=""
-            ><strong>Rechtsgrundlagen:</strong> Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f)
-            DSGVO); </span
-          ><strong>Website:</strong>
-          <a href="https://www.linkedin.com" target="_blank">https://www.linkedin.com</a>;
+          2, Irland
+        </li>
+        <li>
+          <strong>Rechtsgrundlagen:</strong> Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f)
+          DSGVO)
+        </li>
+        <li>
+          <strong>Website:</strong>
+          <a href="https://www.linkedin.com" target="_blank" class="underline">
+            https://www.linkedin.com
+          </a>
+        </li>
+        <li>
           <strong>Datenschutzerklärung:</strong>
-          <a href="https://www.linkedin.com/legal/privacy-policy" target="_blank"
-            >https://www.linkedin.com/legal/privacy-policy</a
-          >; <strong>Grundlage Drittlandtransfers:</strong> Data Privacy Framework (DPF),
-          Standardvertragsklauseln (<a href="https://legal.linkedin.com/dpa" target="_blank"
-            >https://legal.linkedin.com/dpa</a
-          >), Data Privacy Framework (DPF)Standardvertragsklauseln (<a
-            href="https://legal.linkedin.com/dpa"
-            target="_blank"
-            >https://legal.linkedin.com/dpa</a
-          >). <strong>Widerspruchsmöglichkeit (Opt-Out):</strong>
+          <a href="https://www.linkedin.com/legal/privacy-policy" target="_blank" class="underline">
+            https://www.linkedin.com/legal/privacy-policy
+          </a>
+        </li>
+        <li>
+          <strong>Grundlage Drittlandtransfers:</strong> Data Privacy Framework (DPF),
+          Standardvertragsklauseln:
+          <ul class="list-disc list-inside pl-8">
+            <li>
+              <a href="https://legal.linkedin.com/dpa" target="_blank" class="underline">
+                https://legal.linkedin.com/dpa
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <strong>Widerspruchsmöglichkeit (Opt-Out):</strong>
           <a
             href="https://www.linkedin.com/psettings/guest-controls/retargeting-opt-out"
             target="_blank"
-            >https://www.linkedin.com/psettings/guest-controls/retargeting-opt-out</a
-          >.
+            class="underline"
+          >
+            https://www.linkedin.com/psettings/guest-controls/retargeting-opt-out
+          </a>
         </li>
       </ul>
-      <h2 id="m15" class="text-xl font-semibold text-accent mt-10 mb-4">
-        Änderung und Aktualisierung
-      </h2>
+      <h2 id="m15" class="text-xl font-semibold mt-10 mb-4">Änderung und Aktualisierung</h2>
       <p>
         Wir bitten Sie, sich regelmäßig über den Inhalt unserer Datenschutzerklärung zu informieren.
         Wir passen die Datenschutzerklärung an, sobald die Änderungen der von uns durchgeführten
         Datenverarbeitungen dies erforderlich machen. Wir informieren Sie, sobald durch die
-        Änderungen eine Mitwirkungshandlung Ihrerseits (z. B. Einwilligung) oder eine sonstige
+        Änderungen eine Mitwirkungshandlung Ihrerseits (z. B. Einwilligung) oder eine sonstige
         individuelle Benachrichtigung erforderlich wird.
       </p>
       <p>

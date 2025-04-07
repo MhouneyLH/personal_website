@@ -12,6 +12,6 @@ export const parseMarkdownLinksFromString = (txt) => {
 
   return txt.replace(
     /\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g, // Match [text](url)
-    '<a href="$2" target="_blank" class="text-accent underline">$1</a>'
+    '<a href="$2" target="_blank" class="underline">$1</a>'
   );
 };

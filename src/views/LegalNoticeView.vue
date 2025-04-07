@@ -1,7 +1,7 @@
 <template>
   <div class="min-h-screen bg-dark-background text-dark-text flex flex-col items-center px-6 py-10">
     <!-- Header -->
-    <h1 class="text-3xl font-bold text-accent mb-6">Impressum</h1>
+    <h1 class="text-3xl font-bold mb-6">Impressum</h1>
 
     <!-- Content -->
     <div class="max-w-3xl text-sm leading-relaxed space-y-6">
@@ -16,27 +16,22 @@
       <p>
         <b>Kontaktdaten:</b> <br />
         Email:
-        <a href="mailto:lucas.huenniger02@gmail.com" class="text-accent hover:underline"
+        <a href="mailto:lucas.huenniger02@gmail.com" class="hover:underline"
           >lucas.huenniger02@gmail.com</a
         >
       </p>
       <p>
-        <b>Anwendbare Rechtsvorschrift:</b>
-        <a href="https://www.ris.bka.gv.at" target="_blank" class="text-accent hover:underline"
-          >www.ris.bka.gv.at</a
-        >
+        <b>Anwendbare Rechtsvorschrift: </b>
+        <a href="https://www.ris.bka.gv.at" target="_blank" class="underline">www.ris.bka.gv.at</a>
         <br />
-        <b>Berufsbezeichnung: Software Engineer</b>
+        <b>Berufsbezeichnung:</b> Software Engineer
       </p>
       <p>
         <b>Online Streitbeilegung:</b> Verbraucher, welche in Österreich oder in einem sonstigen
         Vertragsstaat der ODR-VO niedergelassen sind, haben die Möglichkeit Probleme bezüglich dem
         entgeltlichen Kauf von Waren oder Dienstleistungen im Rahmen einer Online-Streitbeilegung
         (nach OS, AStG) zu lösen. Die Europäische Kommission stellt eine Plattform hierfür bereit:
-        <a
-          href="https://ec.europa.eu/consumers/odr"
-          target="_blank"
-          class="text-accent hover:underline"
+        <a href="https://ec.europa.eu/consumers/odr" target="_blank" class="underline"
           >https://ec.europa.eu/consumers/odr</a
         >
       </p>

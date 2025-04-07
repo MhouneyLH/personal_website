@@ -6,7 +6,7 @@
       <p class="text-sm">
         [{{ experience.title }}] @
         <strong
-          ><a :href="experience.link" target="_blank" class="text-accent hover:underline">
+          ><a :href="experience.link" target="_blank" class="hover:underline">
             {{ experience.company }}
           </a></strong
         >

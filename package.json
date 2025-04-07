@@ -11,8 +11,10 @@
   },
   "dependencies": {
     "@headlessui/vue": "^1.7.23",
+    "@mdi/font": "^7.4.47",
     "@primeuix/themes": "^1.0.1",
     "@tailwindcss/typography": "^0.5.16",
+    "@vueuse/core": "^13.0.0",
     "lucide-vue-next": "^0.471.0",
     "primeicons": "^7.0.0",
     "primevue": "^4.3.3",

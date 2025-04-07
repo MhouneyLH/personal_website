@@ -3,7 +3,7 @@
   <section>
     <div class="flex items-center">
       <!-- Big ">" Symbol -->
-      <span class="text-6xl md:text-8xl font-bold text-accent leading-none mr-4">&gt;</span>
+      <span class="text-6xl md:text-8xl font-bold text-dark-accent leading-none mr-4">&gt;</span>
       <h1 class="text-4xl md:text-5xl font-bold text-light-slate">Hey, I'm Lucas!</h1>
     </div>
 

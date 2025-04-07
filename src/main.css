@@ -8,10 +8,11 @@
   }
 
   body {
-    @apply text-dark-text bg-dark-background; /* Default dark mode styles */
+    @apply text-white bg-dark-background; /* Default dark mode styles */
   }
 
   .dark body {
-    @apply text-dark-text bg-dark-background; /* Ensure dark mode styles are applied */
+    /* Ensure dark mode styles are applied */
+    @apply text-white bg-dark-background;
   }
 }

@@ -1,6 +1,6 @@
 <template>
   <span
-    class="text-sm text-accent cursor-pointer inline-block leading-tight"
+    class="text-sm cursor-pointer inline-block leading-tight"
     :class="hoveredSkill === name ? 'bg-green-500 text-white font-bold ' : color"
     @mouseover="setHoveredSkill(name)"
     @mouseleave="setHoveredSkill(null)"

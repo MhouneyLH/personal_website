@@ -7,13 +7,13 @@
       :href="link.url"
       target="_blank"
       rel="noopener noreferrer"
-      class="text-light-slate hover:text-accent"
+      class="text-light-slate"
     >
       <i :class="`pi pi-${link.icon}`" :style="{ fontSize: iconSize }"></i>
     </a>
 
     <!-- Email Icon -->
-    <a class="text-light-slate hover:text-accent cursor-pointer" :href="`mailto:${email}`">
+    <a class="text-light-slate cursor-pointer" :href="`mailto:${email}`">
       <i class="pi pi-envelope" :style="{ fontSize: iconSize }"></i>
     </a>
   </div>

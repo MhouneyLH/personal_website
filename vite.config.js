@@ -15,4 +15,10 @@ export default defineConfig({
       "@": fileURLToPath(new URL("./src", import.meta.url)),
     },
   },
+  // vue: {
+  //   compilerOptions: {
+  //     // Enable the compiler for Vue 3
+  //     isCustomElement: (tag) => tag.startsWith("v-"),
+  //   },
+  // },
 });
