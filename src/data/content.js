@@ -20,6 +20,7 @@ const Skills = Object.freeze({
   SCALA: "Scala",
   TERRAFORM: "Terraform",
   AWS: "AWS",
+  AZURE: "Azure",
   TYPESCRIPT: "Typescript",
   POSTGRE_SQL: "PostgreSQL",
   RABBITMQ: "RabbitMQ",
@@ -29,9 +30,30 @@ const Skills = Object.freeze({
   SOFTWARE_TESTING: "Software Testing",
   ESP32: "ESP32",
   XAMARIN: "Xamarin",
+  BIG_DATA: "Big Data",
 });
 
 export const experiences = [
+  {
+    title: "Backend Software Engineer",
+    company: "Fronius International GmbH",
+    startDate: "July 2025",
+    endDate: "Present",
+    description:
+      "Maintaining and further developing the backend of the Fronius Solar.web platform, which is built on a microservice architecture. My work spans a wide range of areas: from IaC, deployment pipelines, and observability to API design, data processing, and software development. Currently, my main focus is on my master’s thesis project, which explores data aggregation in a big data (especially fleet) environment.",
+    skills: [
+      Skills.SOFTWARE_ARCHITECTURE,
+      Skills.DOMAIN_DRIVEN_DESIGN,
+      Skills.BIG_DATA,
+      Skills.CSHARP,
+      Skills.ASP_DOTNET,
+      Skills.TERRAFORM,
+      Skills.DOCKER,
+      Skills.AZURE,
+      Skills.CICD,
+    ],
+    link: "https://www.fronius.com/en",
+  },
   {
     title: "M. Sc. in Software Engineering",
     company: "University of Applied Sciences Upper Austria - Hagenberg",
