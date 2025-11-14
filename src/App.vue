@@ -4,6 +4,9 @@
     <GlowingAroundCursor :glow-size="140" tailwind-glow-color="bg-dark-accent">
       <template #content>
         <div class="relative flex flex-col min-h-screen">
+          <!-- Navigation -->
+          <NavigationBar class="z-101" />
+
           <!-- Main Content -->
           <div class="flex-grow">
             <router-view />
@@ -20,4 +23,5 @@
 <script setup>
 import GlowingAroundCursor from "./components/GlowingAroundCursor.vue";
 import FooterSection from "./components/sections/FooterSection.vue";
+import NavigationBar from "./components/NavigationBar.vue";
 </script>

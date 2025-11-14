@@ -52,7 +52,7 @@ const predefinedLines = [
   {
     command: "ls",
     path: "~",
-    output: "projects work_experience nature volleyball.sh",
+    output: "projects work nature volleyball.sh",
   },
   {
     command: "cd ./work/",

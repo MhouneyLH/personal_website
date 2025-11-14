@@ -9,12 +9,8 @@
       </a>
 
       <div class="flex space-x-4 mt-2">
-        <router-link to="/legal" class="text-light-slate hover:text-dark-accent text-sm"
-          >Legal Notice</router-link
-        >
-        <router-link to="/privacy" class="text-light-slate hover:text-dark-accent text-sm"
-          >Privacy Policy</router-link
-        >
+        <router-link to="/legal" class="text-light-slate hover:text-dark-accent text-sm">Legal Notice</router-link>
+        <router-link to="/privacy" class="text-light-slate hover:text-dark-accent text-sm">Privacy Policy</router-link>
       </div>
     </div>
   </footer>

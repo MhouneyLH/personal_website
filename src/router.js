@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "./views/HomeView.vue";
 import LegalNoticeView from "./views/LegalNoticeView.vue";
 import PrivacyView from "./views/PrivacyView.vue";
+import BlogView from "./views/BlogView.vue";
 
 const routes = [
   {
@@ -18,6 +19,11 @@ const routes = [
     path: "/privacy",
     name: "privacy",
     component: PrivacyView,
+  },
+  {
+    path: "/blog",
+    name: "blog",
+    component: BlogView,
   },
 ];
 
