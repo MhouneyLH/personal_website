@@ -1,3 +1,3 @@
 <template>
-    <p>askdfj</p>
+    <p>Coming soon... :)</p>
 </template>
