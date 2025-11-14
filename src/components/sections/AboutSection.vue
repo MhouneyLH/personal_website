@@ -23,16 +23,11 @@
 
     <!-- Buy Me a Coffee Banner -->
     <div class="mt-3">
-      <a
-        href="https://www.buymeacoffee.com/mhouneylh"
-        target="_blank"
-        rel="noopener noreferrer"
-        class="text-light-slate cursor-pointer inline-block"
-      >
+      <a href="https://www.buymeacoffee.com/mhouneylh" target="_blank" rel="noopener noreferrer"
+        class="text-light-slate cursor-pointer inline-block">
         <img
-          src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=☕&slug=mhouneylh&button_colour=4ade80&font_colour=ffffff&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00"
-          alt="Buy Me a Coffee"
-        />
+          src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=☕&slug=mhouneylh&button_colour=18181b&font_colour=e2e8f0&font_family=Cookie&outline_colour=4ade80&coffee_colour=4ade80"
+          alt="Buy Me a Coffee" />
       </a>
     </div>
   </section>
