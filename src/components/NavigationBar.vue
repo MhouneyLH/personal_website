@@ -1,19 +1,17 @@
 <template>
     <nav class="sticky">
         <div class="w-1/2 mx-auto px-6 py-4">
-            <div class="flex justify-between">
+            <div class="flex gap-10 justify-between">
                 <Quote :text="currentQuote" />
                 <div class="flex gap-6">
                     <router-link to="/" class="text-light-slate hover:text-dark-accent transition-colors text-xl"
                         :class="{ 'text-dark-accent font-bold': route.path === '/' }">
                         Home
                     </router-link>
-                    <router-link to="/blog" class="text-light-slate hover:text-dark-accent transition-colors text-xl"
-                        :class="{
-                            'text-dark-accent font-bold': route.path === '/blog'
-                        }">
+                    <a href="https://blog.lucas-huenniger.dev" target="_blank" rel="noopener noreferrer"
+                        class="text-light-slate hover:text-dark-accent transition-colors text-xl">
                         Blog
-                    </router-link>
+                    </a>
                 </div>
             </div>
         </div>
@@ -29,7 +27,6 @@ const route = useRoute();
 
 const routeQuotes: Record<string, string> = {
     '/': 'Some war crimes I\'ve committed so far.',
-    '/blog': 'My opinionated opinions.',
     '/privacy': 'Your data is safe... probably.',
     '/legal': 'The boring but necessary stuff.',
 };
